@@ -1,0 +1,1 @@
+PASS: 15 own cases x 3 mixed batches; alternative/invalid witnesses; 4 route calls; all six methods at n=100000, q/m=250000.

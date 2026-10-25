@@ -1,0 +1,77 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "timer": "time.perf_counter",
+  "boundary": "Algorithm call, including internal adjacency/DSU/sorting; excludes generation, parsing, validation and I/O.",
+  "warmup": "One untimed call per method per graph",
+  "rows": [
+    {
+      "n": 1000,
+      "m": 5000,
+      "seed": 3537,
+      "cost": -753401,
+      "seconds": {
+        "kruskal": [
+          0.002551725999978771,
+          0.0035806409999850075,
+          0.0029539329999579422
+        ],
+        "prim": [
+          0.005044602999987546,
+          0.0042140770000287375,
+          0.005071373000077983
+        ]
+      },
+      "median_seconds": {
+        "kruskal": 0.0029539329999579422,
+        "prim": 0.005044602999987546
+      }
+    },
+    {
+      "n": 10000,
+      "m": 50000,
+      "seed": 12537,
+      "cost": -7624521,
+      "seconds": {
+        "kruskal": [
+          0.050056182000048466,
+          0.048741605000031996,
+          0.048329252000030465
+        ],
+        "prim": [
+          0.10621596699991187,
+          0.11474422500009496,
+          0.11183446699999422
+        ]
+      },
+      "median_seconds": {
+        "kruskal": 0.048741605000031996,
+        "prim": 0.11183446699999422
+      }
+    },
+    {
+      "n": 50000,
+      "m": 250000,
+      "seed": 52537,
+      "cost": -38196394,
+      "seconds": {
+        "kruskal": [
+          0.3919033990000571,
+          0.3750042209999265,
+          0.38331838599992807
+        ],
+        "prim": [
+          0.9851536030000716,
+          0.9833451120000518,
+          0.997845186999939
+        ]
+      },
+      "median_seconds": {
+        "kruskal": 0.38331838599992807,
+        "prim": 0.9851536030000716
+      }
+    }
+  ],
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor"
+}

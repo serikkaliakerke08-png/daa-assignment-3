@@ -1,0 +1,30 @@
+{
+  "3": {
+    "vertices": [
+      0,
+      3
+    ],
+    "edge_ids": [
+      4
+    ]
+  },
+  "0": {
+    "vertices": [
+      0
+    ],
+    "edge_ids": []
+  },
+  "4": {
+    "vertices": [],
+    "edge_ids": []
+  },
+  "1": {
+    "vertices": [
+      0,
+      1
+    ],
+    "edge_ids": [
+      0
+    ]
+  }
+}
